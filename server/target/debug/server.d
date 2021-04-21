@@ -1,0 +1,1 @@
+/home/dodare/repos/rust-practice/server/target/debug/server: /home/dodare/repos/rust-practice/server/src/http/method.rs /home/dodare/repos/rust-practice/server/src/http/mod.rs /home/dodare/repos/rust-practice/server/src/http/request.rs /home/dodare/repos/rust-practice/server/src/main.rs /home/dodare/repos/rust-practice/server/src/server.rs
