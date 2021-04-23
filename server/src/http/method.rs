@@ -1,6 +1,5 @@
 use std::str::FromStr;
 
-
 pub enum Method {
     GET,
     POST,
@@ -13,7 +12,7 @@ pub enum Method {
     PATCH,
 }
 
-impl FromStr for Point {
+impl FromStr for Method {
     type Err = MethodError;
 
     fn from_str(s: &str) -> Result<Self, Self::Err> {
@@ -27,7 +26,7 @@ impl FromStr for Point {
             "OPTIONS" => Ok(Self::OPTIONS),
             "TRACE" => Ok(Self::TRACE),
             "PATCH" => Ok(Self::PATCH),
-            _ => Err(MethodError::from("error")),
+            _ => Err(MethodError),
         }
     }
 }
